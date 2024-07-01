@@ -16,15 +16,15 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.first-section {
+  background-image: url("/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* This sets the background image to be 50% of the width and 50% of the height of the section */
+  height: 100vh;
+  width: 100%;
 }
+
 
 @layer utilities {
   .text-balance {
